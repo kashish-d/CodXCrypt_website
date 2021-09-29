@@ -14814,7 +14814,12 @@ License Terms .blog-entry {
   font-size: 13px;
 }
 
+#footer .social-links{
+  margin: auto;
+}
+
 #footer .social-links a {
+  
   font-size: 18px;
   display: inline-block;
   background: #e1e4ec;
