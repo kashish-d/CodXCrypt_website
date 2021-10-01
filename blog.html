@@ -45,8 +45,13 @@
    <div class="container">
      <a href="index.html"><span><img src="images/CodXCrypt.png" alt="" class="img-fluid"></span></a>
      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-       <span class="oi oi-menu"></span> Menu
-   </button>
+       <span class="oi oi-menu"></span>
+       <div class="containerM">
+         <div class="bar1"></div>
+         <div class="bar2"></div>
+         <div class="bar3"></div>
+        </div>
+      </button>
 
     <div class="collapse navbar-collapse" id="ftco-nav">
         <ul class="navbar-nav ml-auto">
@@ -184,7 +189,7 @@
             <a href="https://www.youtube.com/channel/UCInFaJ1OUf5UGl5soiO_8ng"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
             <a href="https://t.me/codxcryptdsacp"><i class="fa fa-telegram"></i></a>
           </div>
-      <button onclick="topFunction()" id="myBtn" title="Go to top">Go to Top</button>
+        <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-arrow-up" aria-hidden="true"></i></button>
     </div>
     <p style="text-align:center;">Copyright @Copyright 2020 CodXCrypt Community | All rights reserved</p>
 
@@ -211,7 +216,9 @@
 <script src="js/main.js"></script>
 <script src="js/preloaderjs.js"></script>
 <script src="https://medium-widget.pixelpoint.io/widget.js"></script>
-<script>MediumWidget.Init({renderTo: '#medium-widget', params: {"resource":"https://medium.com/@vaibhavbharti","postsPerLine":2,"limit":4,"picture":"big","fields":["description","author","claps","publishAt"],"ratio":"landscape"}})</script>
+<script>
+const postsPerLine = (window.matchMedia("(max-width: 767px)").matches) ? 1 : 2;
+MediumWidget.Init({renderTo: '#medium-widget', params: {"resource":"https://medium.com/@vaibhavbharti","postsPerLine":postsPerLine,"limit":4,"picture":"big","fields":["description","author","claps","publishAt"],"ratio":"landscape"}})</script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
 </body>
