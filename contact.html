@@ -41,8 +41,13 @@
    <div class="container">
      <a href="index.html"><span><img src="images/CodXCrypt.png" alt="" class="img-fluid"></span></a>
      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-       <span class="oi oi-menu"></span> Menu
-   </button>
+       <span class="oi oi-menu"></span>
+       <div class="containerM">
+         <div class="bar1"></div>
+         <div class="bar2"></div>
+         <div class="bar3"></div>
+        </div>
+      </button>
 
     <div class="collapse navbar-collapse" id="ftco-nav">
         <ul class="navbar-nav ml-auto">
@@ -89,28 +94,44 @@
 									<h3 class="mb-4">Get in touch</h3>
 									<form method="POST" id="contactForm" name="contactForm" class="contactForm">
 										<div class="row">
-											<div class="col-md-6">
-												<div class="form-group">
-													<label class="label" for="name">Full Name</label>
-													<input type="text" class="form-control" name="name" id="name" placeholder="Name">
+											<div class="col-md-12">
+                        <div class="form-group">
+                          <div class="col-md-3">
+                            <label class="label" for="name">Full Name</label>
+                          </div>
+                          <div class="col-md-9">
+                            <input type="text" class="form-control" name="name" id="name" placeholder="Name">
+                          </div>
 												</div>
 											</div>
-											<div class="col-md-6"> 
-												<div class="form-group">
-													<label class="label" for="email">Email Address</label>
-													<input type="email" class="form-control" name="email" id="email" placeholder="Email">
+											<div class="col-md-12"> 
+                        <div class="form-group">
+                          <div class="col-md-3"> 
+                            <label class="label" for="email">Email Address</label>
+                          </div>
+                          <div class="col-md-9"> 
+                            <input type="email" class="form-control" name="email" id="email" placeholder="Email">
+                          </div>
 												</div>
 											</div>
 											<div class="col-md-12">
-												<div class="form-group">
-													<label class="label" for="subject">Subject</label>
-													<input type="text" class="form-control" name="subject" id="subject" placeholder="Subject">
+                        <div class="form-group">
+                          <div class="col-md-3">
+                            <label class="label" for="subject">Subject</label>
+                          </div>
+                          <div class="col-md-9">
+                            <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject">
+                          </div>
 												</div>
 											</div>
 											<div class="col-md-12">
-												<div class="form-group">
-													<label class="label" for="#">Message</label>
-													<textarea name="message" class="form-control" id="message" cols="30" rows="4" placeholder="Message"></textarea>
+                        <div class="form-group">
+                          <div class="col-md-3">
+                            <label class="label" for="message">Message</label>
+                          </div>
+                          <div class="col-md-9">
+                            <textarea name="message" class="form-control" id="message" cols="30" rows="4" placeholder="Message"></textarea>
+                          </div>
 												</div>
 											</div>
 											<div class="col-md-12">
@@ -132,7 +153,7 @@
 											<span class="fa fa-map-marker"></span>
 										</div>
 										<div class="text pl-3">
-											<p><span>Address:</span> New Delhi, India</p>
+											<p>New Delhi, India</p>
 										</div>
 									</div>
 									<div class="dbox w-100 d-flex align-items-center">
@@ -140,7 +161,7 @@
 											<span class="fa fa-phone"></span>
 										</div>
 										<div class="text pl-3">
-											<p><span>Phone:</span> <a href="tel://1234567920">+91 80586 84414</a></p>
+											<p><a href="tel://1234567920">+91 80586 84414</a></p>
 										</div>
 									</div>
 									<div class="dbox w-100 d-flex align-items-center">
@@ -148,7 +169,7 @@
 											<span class="fa fa-paper-plane"></span>
 										</div>
 										<div class="text pl-3">
-											<p><span>Email:</span> <a href="mailto:codxcryptcommunity@gmail.com">codxcryptcommunity@gmail.com</a></p>
+											<p><a href="mailto:codxcryptcommunity@gmail.com">codxcryptcommunity@gmail.com</a></p>
 										</div>
 									</div>
 									<div class="dbox w-100 d-flex align-items-center">
@@ -156,7 +177,7 @@
 											<span class="fa fa-globe"></span>
 										</div>
 										<div class="text pl-3">
-											<p><span>Website</span> <a href="#">www.codxcrypt.com</a></p>
+											<p><a href="#">www.codxcrypt.com</a></p>
 										</div>
 									</div>
 								</div>
@@ -234,7 +255,8 @@
             <a href="https://www.youtube.com/channel/UCInFaJ1OUf5UGl5soiO_8ng"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
             <a href="https://t.me/codxcryptdsacp"><i class="fa fa-telegram"></i></a>
           </div>
-      <button onclick="topFunction()" id="myBtn" title="Go to top">Go to Top</button>
+          <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-arrow-up" aria-hidden="true"></i></button>
+
     </div>
     <p style="text-align:center;">Copyright @Copyright 2020 CodXCrypt Community | All rights reserved</p>
 
